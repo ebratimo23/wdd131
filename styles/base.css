@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,500;1,500&family=League+Spartan:wght@400;500;700&family=Montserrat:wght@500&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,300;0,500;1,400&family=Rubik:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    margin: 2em auto;
+    padding: 1em;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+.bx0{
+    font-size: 30px;
+}
+.icon-menu{
+    display: none;
+    cursor: pointer;
+}
+.icon-menu-show{
+    display: block;
+}
+
+nav ul{
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    height: 80px;
+}
+
+
+nav ul li{
+    margin-right: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    transition: color 0.5s;
+}
+
+nav ul li a:hover{
+    color: #861aeb;
+}
+header{
+    margin-top: 5em;
+}
+.container-header{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+  
+.container-image{
+    width: 300px;
+    height: 300px;
+    background-image:url(../images/foto-perfil.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-title{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text1{
+    width: 400px;
+}
+
+.title1{
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.bx1{
+    font-size: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    color: #fff;
+    background-color: #861aeb;
+}
+
+
+
+button{
+    width: 240px;
+    height: 40px;
+    border-bottom: none;
+    border: none;
+    background-color: #861aeb;
+
+}
+.bx2 {
+    color: #fff;
+    font-size: 15px;
+    margin-right: 15px;
+}
+
+button a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+}
+
+/*---------------------main--------------------*/
+main{
+    margin: 1em;
+    padding: 1em;
+}
+
+h2{
+    text-align: center;
+}
+
+.portafolio{
+    margin-top: 2em;
+}
+
+.container-imagen{
+    display: grid;
+    margin: 2em auto;
+    max-width: 1200px;
+    grid-template-columns:  repeat(3, 1fr);
+    grid-auto-rows: minmax(250px, auto);
+    gap: 20px;
+    text-align: center;
+}
+
+.images{
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.images:nth-child(1){
+    border: 1px solid #000;
+    border-radius: 10px;
+    grid-column: 1/3;
+    padding: 1em;
+    gap: 30px;
+}
+.images:nth-child(2){
+    background-color: aqua;
+    width: 300px;
+}
+.boxi2{
+    display: flex;
+    flex-direction: column;
+}
+.conten-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conten-img{
+    width: 600px;
+    height: 200px;
+    background-image: url(../images/css-3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.images1{
+    background-color: #861aeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.images1, ul, li, a{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 20px;
+    color: #000;
+}
+
+footer{
+    margin: 2em auto ;
+}
+
+.all-contac{
+    margin: 2em auto;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #861aeb;
+    gap: 10px;
+    border-radius: 10px;
+}
+.copy, .copy2{
+    font-size: 21px;
+}
