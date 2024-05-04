@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,500;1,500&family=League+Spartan:wght@400;500;700&family=Montserrat:wght@500&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,300;0,500;1,400&family=Rubik:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    list-style: none;
+    text-decoration: none;
+}
+*::selection{
+    background: var(--main-color);
+    color: #fff;
+}
+section{
+    padding: 50px 10%;
+}
+
+:root{
+    --main-color: #ebb010;
+    --text-color: #000000;
+    --bg-color: #fff;
+
+    --big-font: 4rem;
+    --h2-font: 2.24rem;
+    --p-font: 0.9rem;
+}
+
+#darkmode{
+    font-size: 25px;
+    cursor: pointer;
+}
+body.active{
+    --bg-color: #000;
+    --text-color: #fff;
+}
+body{
+    color: var(--text-color);
+    background: var(--bg-color);
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg-color);
+    padding: 18px 100px;
+    box-shadow: 0 0.5rem 50rem rgba(0, 0, 0, 0.2)
+}
+
+.logo{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.navbar a:hover{
+    color: var(--main-color);
+}
+#menu-icon{
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+    
+}
+
+
+
+/*----------------Main-----------------------*/
+h2{
+    text-align: center;
+    margin-top: 80px;
+}
+main{
+    margin: 1em;
+    padding: 1em;
+}
+
+
+.box-father{
+    display: grid;
+    margin: 3em auto;
+    max-width: 1200px;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    grid-auto-rows: minmax(250px, auto);
+    gap: 20px;
+    text-align: center;
+}
+
+
+.children {
+    position: relative;
+    margin-bottom: 20px
+}
+
+.children .image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%; 
+    height: 250px; 
+}
+
+.children p {
+    position: absolute;
+    bottom: -60; 
+    left: 0; 
+    width: 100%; 
+    padding: 10px; 
+    margin: 0; 
+}
+.children .image-1 {
+    background-image: url(../images/bogota_colombia_temple_lds.webp);
+}
+.children .image-2 {
+    background-image: url(../images/buenos_aires_argentina_temple.webp);
+}
+.children .image-3 {
+    background-image: url(../images/brisbane_australia_temple_lds.webp);
+}
+.children .image-4 {
+    background-image: url(../images/caracas_venezuela_temple.webp);
+}
+.children .image-5 {
+    background-image: url(../images/copenhagen_denmark_temple_lds.webp);
+}
+.children .image-6 {
+    background-image: url(../images/dallas_texas_temple.webp);
+}
+.children .image-7 {
+    background-image: url(../images/curitiba_brazil_temple.webp);
+}
+.children .image-8 {
+    background-image: url(../images/hong_kong_china_temple.webp);
+}
+.children .image-9 {
+    background-image: url(../images/jordan_river_temple_exterior_images.webp);
+}
+
+
+
+/*--------------footer------------------*/
+
+.all-contac{
+    margin: 2em auto;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--text-color);
+    gap: 10px;
+    border-radius: 10px;
+    color: var(--bg-color);
+}
+.copy, .copy2{
+    font-size: 21px;
+}
+
+@media(max-width: 768px){
+    #menu-icon{
+        display: initial;
+        color: #000;
+    }
+
+}
