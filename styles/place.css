@@ -1,0 +1,27 @@
+@media(max-width: 921px){
+    .imagen-background{
+        display: block;
+    }
+    .container {
+        grid-template-columns: 1fr; 
+        background-color: #fff;
+        background-image: none
+    }
+
+    .data, .weather {
+        grid-column: auto; 
+        width: 100%; 
+        text-align: center;
+    }
+
+    .title-data, .title-weather {
+        width: 100%; 
+        max-width: none; 
+        margin-left: 0; 
+        margin-right: 0; 
+    }
+
+    .copy, .copy2{
+        font-size: 15px;
+    }
+}
