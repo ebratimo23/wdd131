@@ -1,0 +1,47 @@
+@media(max-width: 921px){
+    header{
+        padding: 14px 41px;
+    }
+    :root{
+        --big-font: 3rem;
+        --h2-font: 1.7rem;
+    }
+    .copy, .copy2{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 768px){
+    section{
+        padding: 50px 8%;
+    }
+    #menu-icon{
+        display: inline-block;
+        color: #000;
+    }
+    header .navbar{
+        position: absolute;
+        top: -400px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background: var(--bg-color);
+        box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
+        transition: 0.3 ease;
+    }
+    .navbar.active{
+        top: 100%;
+    }
+    .navbar a{
+        padding: 1.5rem;
+        display: block;
+        background-color: var(--bg-color);
+    }
+    #darkmode{
+        position: absolute;
+        top: 1.4rem;
+        right: 2rem;
+    }
+}
