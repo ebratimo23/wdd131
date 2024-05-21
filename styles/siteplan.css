@@ -1,36 +1,35 @@
-/* Estilos para el cuerpo y los encabezados */
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #f2f2f2; /* Color de fondo gris claro */
-    color: #333; /* Color de texto gris oscuro */
+    background-color: #f2f2f2; 
+    color: #333; 
     margin: 0;
     padding: 0;
 }
 
 h1, h2 {
-    color: #9b1d20; /* Color rojo oscuro para los encabezados */
+    color: #9b1d20; 
 }
 
-/* Estilos para el encabezado */
+
 header {
-    background-color: #fff; /* Fondo blanco para el encabezado */
+    background-color: #fff; 
     padding: 20px;
     text-align: center;
 }
 
-/* Estilos para las secciones */
+
 section {
     padding: 20px;
     margin-bottom: 20px;
-    background-color: #fff; /* Fondo blanco para las secciones */
+    background-color: #fff; 
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
-/* Estilos para el pie de página */
+
 footer {
-    background-color: #9b1d20; /* Fondo rojo oscuro para el pie de página */
-    color: #fff; /* Color de texto blanco para el pie de página */
+    background-color: #9b1d20; 
+    color: #fff; 
     text-align: center;
     padding: 20px;
 }
