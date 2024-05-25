@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Form - Luis Herrera</title>
+    <meta name="description" content="WDD 131 - Form, Luis Herrera Rengel ">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+</head>
+<body> 
+    <header>
+        <h1>Product Review</h1>
+    </header>  
+
+    <main>
+        <form action="review.html" method="get">
+  
+            <label for="producto">Product name:</label>
+            <select id="producto" name="producto" required>
+                <option value="" disabled selected>Select a product ...</option>
+            </select>
+
+            <label for="valoracion">Overall Rating:</label><br>
+            <input type="radio" id="valoracion1" name="valoracion" value="1" required>
+            <label for="valoracion1">★</label>
+            <input type="radio" id="valoracion2" name="valoracion" value="2">
+            <label for="valoracion2">★★</label>
+            <input type="radio" id="valoracion3" name="valoracion" value="3">
+            <label for="valoracion3">★★★</label>
+            <input type="radio" id="valoracion4" name="valoracion" value="4">
+            <label for="valoracion4">★★★★</label>
+            <input type="radio" id="valoracion5" name="valoracion" value="5">
+            <label for="valoracion5">★★★★★</label><br>
+
+            <label for="fecha">Installation Date:</label>
+            <input type="date" id="fecha" name="fecha" required><br>
+
+            <label>Which Features did you find useful in the product?:</label><br>
+            <input type="checkbox" id="feature1" name="features" value="feature1">
+            <label for="feature1">Durability</label><br>
+            <input type="checkbox" id="feature2" name="features" value="feature2">
+            <label for="feature2">Ease of use </label><br>
+            <input type="checkbox" id="feature2" name="features" value="feature2">
+            <label for="feature2">Performance </label><br>
+            <input type="checkbox" id="feature2" name="features" value="feature2">
+            <label for="feature2">Desing  </label><br>
+
+            <!-- Add more features as needed -->
+            <label for="review">Written Review:</label><br>
+
+            <textarea id="review" name="review"></textarea><br>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username"><br>
+
+            <input type="submit" value="Submit Review">
+        </form>
+            
+    </main>
+
+    <footer>
+        <section>
+            <div class="all-contac">
+                <div class="copy"></div>
+                <div class="copy2"></div>
+            </div>
+
+        </section>
+    </footer>
+</body>
+</html>
