@@ -60,6 +60,7 @@ const products = [
 
 
 
+
 let footerCopy = document.querySelector('.copy');
 
 // Get the current year
