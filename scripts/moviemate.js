@@ -1,3 +1,7 @@
+$(document).ready(function(){
+    $('.carousel').carousel();
+        } );
+
 function changeBg(bg, title) {
     const banner = document.querySelector('.banner');
     const contents = document.querySelectorAll('.content');
