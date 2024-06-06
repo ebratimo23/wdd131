@@ -275,3 +275,35 @@ header{
     color: var(--primary);
 }
 
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 20px 5%; /* Modificar el padding para hacerlo más responsivo */
+    }
+
+    .logo {
+        font-size: 1.5rem; /* Modificar el tamaño de fuente para hacerlo más responsivo */
+    }
+
+    .search {
+        width: 50%; /* Modificar el ancho para hacerlo más responsivo */
+    }
+}
+
+/* Teléfonos */
+@media only screen and (max-width: 480px) {
+    header {
+        padding: 10px 5%; /* Modificar el padding para hacerlo más responsivo */
+    }
+
+    .logo {
+        font-size: 1.2rem; /* Modificar el tamaño de fuente para hacerlo más responsivo */
+    }
+
+    .search {
+        width: 70%; /* Modificar el ancho para hacerlo más responsivo */
+    }
+
+    .nav li {
+        margin: 0 5px; /* Modificar el margen para hacerlo más responsivo */
+    }
+}
