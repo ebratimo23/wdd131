@@ -229,7 +229,7 @@ header{
 }
 
 .connect-text span{
-    font-size: var(--main-color);
+    font-size: 2rem;
     font-weight: 500;
 }
 
