@@ -26,7 +26,7 @@
         text-align: center;
         background: var(--bg-color);
         box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
-        transition: all 0.3 ease;
+        transition: all 0.3s ease;
     }
     .navbar.active{
         top: 100%;
